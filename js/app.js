@@ -23,13 +23,23 @@ function makeGrid(rows, cols) {
         document.querySelector("#container").appendChild(gridItem);
         gridItem.addEventListener("mouseover", function (e) {
             gridItem.style.backgroundColor = randomRGB();
+            gridItem.style.transition = ".3s";
         });
     };
 };
 
+// REMOVE GRIDS SOMEHOW?
+var grids = document.querySelector("#container").addEventListener('click', function (e) {
+
+    document.removeEventListener(makeGrid);
+    
+});
+
 
 // Default Reset Setting
 document.onload = makeGrid(20, 20);
+
+
 
 //Reset Button - reset grid colors
 const clearButton = document.querySelector(".clear");
@@ -40,7 +50,6 @@ clearButton.addEventListener("click", function() {
 
 
 //Slider to adjust size 
-
 var slider = document.getElementById("mySize");
 var output = document.getElementById("number");
 output.innerHTML = slider.value; // Display the default slider value
