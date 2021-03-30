@@ -1,8 +1,0 @@
-Prompt user size of grid 
-    no more than 100
-use loop to create grid of divs
-click to activate on hover to:
-    change color of grid where mouse is
-        optional: each square is new color
-    click again to turn off hover
-Create reset button to reset canvas
