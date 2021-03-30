@@ -20,7 +20,7 @@ h1 {
 
 
 .menu {
-    display: grid;
+    /* display: grid; */
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     justify-content: center;
@@ -55,6 +55,7 @@ button {
 }
 
 #adjustSize {
+    font-size: 12px;
     grid-column: 2;
     margin-left: auto;
     margin-right: auto;
