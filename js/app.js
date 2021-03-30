@@ -10,7 +10,7 @@ function randomRGB () {
     }
 }
 
-// Create Div grid
+// Create Div grid and mouseover effect
 const container = document.getElementById("container");
 function makeGrid(rows, cols) {
     
@@ -26,6 +26,8 @@ function makeGrid(rows, cols) {
         });
     };
 };
+
+
 
 // Default Reset Setting
 document.onload = makeGrid(20, 20);
@@ -53,9 +55,6 @@ slider.oninput = function() {
 }
 
 
-
-
-
 // Remove Child Nodes
 function removeAllChildNodes(parent) {
     while (container.firstChild) {
@@ -64,18 +63,3 @@ function removeAllChildNodes(parent) {
 }
 
 
-
-
-
-
-// Old Function for prompting size 
-// const changeSizeButton = document.querySelector(".changeSize");
-// changeSizeButton.addEventListener("click", function() {
-
-//     do{
-//         var selection = parseInt(window.prompt("Please enter a number from 1 to 100", ""), 10);
-//     }while(isNaN(selection) || selection > 100 || selection < 1);
-//     removeAllChildNodes(container);
-//     makeGrid(selection, selection);
-
-// });

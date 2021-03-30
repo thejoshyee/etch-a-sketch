@@ -112,7 +112,17 @@ footer {
     text-align: center;
     margin-bottom: 35px;
     font-family: 'Train One', cursive;
+}
 
+
+.joshyee {
+    color: rgb(116, 171, 255);
+    text-align: center;
+}
+
+.joshyee:hover {
+    color: rgb(249, 97, 97);
+    transition: 0.5s;
 }
 
 
