@@ -28,7 +28,6 @@ function makeGrid(rows, cols) {
 };
 
 
-
 // Default Reset Setting
 document.onload = makeGrid(20, 20);
 
@@ -53,7 +52,6 @@ slider.oninput = function() {
     removeAllChildNodes(container);
     makeGrid(newSize, newSize);
 }
-
 
 // Remove Child Nodes
 function removeAllChildNodes(parent) {
