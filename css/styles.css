@@ -63,7 +63,7 @@ button:hover {
 }
 
 #adjustSize {
-    font-size: 12px;
+    font-size: 1.2em;
     grid-column: 2;
     margin-left: auto;
     margin-right: auto;
