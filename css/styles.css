@@ -3,6 +3,12 @@ body {
     background-color:rgb(250, 239, 225);
 }
 
+.note {
+    font-style: italic;
+    font-size: x-small;
+    text-align: center;
+}
+
 h1 {
     text-align: center;
     font-family: 'Dancing Script', cursive;
@@ -110,7 +116,9 @@ button:hover {
 
 .gridItem {
     border: 1px solid #ddd;
+    background-color: none;
 }
+
 
 footer {
     text-align: center;

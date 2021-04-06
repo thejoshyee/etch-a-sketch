@@ -1,3 +1,5 @@
+
+
 // Random RGB mouseover
 function randomRGB () {
     while (true) {
@@ -27,14 +29,6 @@ function makeGrid(rows, cols) {
         });
     };
 };
-
-// REMOVE GRIDS SOMEHOW?
-var grids = document.querySelector("#container").addEventListener('click', function (e) {
-
-    document.removeEventListener(makeGrid);
-    
-});
-
 
 // Default Reset Setting
 document.onload = makeGrid(20, 20);
