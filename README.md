@@ -1,4 +1,10 @@
-# etch-a-sketch
-Project 3 for The Odin Project
+# Etch-a-sketch
 
-Preview it here: https://thejoshyee.github.io/etch-a-sketch/
+## About
+Project 3 for The Odin Project practicing HTML, CSS, and Javascript!
+
+## Preview
+<img src="" width="50%" />
+
+## Live Demo
+https://thejoshyee.github.io/etch-a-sketch/
